@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Template Rendering</title>
+</head>
+<body>
+    <h1>Hello, {{ user.username }}</h1>
+    <p>You are {{ user.age }} years old.</p>
+
+    <h2>Fruits List</h2>
+    <ul>
+        {% for fruit in fruits %}
+            <li>{{ fruit }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

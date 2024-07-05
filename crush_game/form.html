@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            border: none;
+            border-bottom: 2px solid black;
+            flex: 1; 
+        }
+        #full {
+            width: 100%;
+        }
+        div {
+
+            display: flex; 
+            align-items: center; 
+        }
+        .box {
+            height: 10px;
+            width: 10px;
+            border: 2px solid black;
+        }
+        .row {
+            margin-bottom: 10px;
+        }
+        .row label {
+            margin-right: 10px; /
+        }
+        .pad{
+            padding-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset style="margin-left: 25%; margin-right: 25%;">
+        <center>
+            <h3>WORLD WATER DAY 2016 - WATER THROUGH MY LENS</h3>
+            <h3>PHOTOGRAPHY COMPETITION</h3>
+            <h3>ENTRY FORM</h3>
+        </center>
+
+        <div class="row">
+            <label for="name">Name</label>
+            <input id="name" type="text">
+            <label for="gender">Gender: Male/Female</label>
+        </div>
+
+        <div class="row">
+            <div style="flex: 1">
+                <label for="nric">NRIC NO:</label>
+                <input id="nric" type="text">
+            </div>
+            <div style="flex: 1">
+                <label for="dob">Date of Birth</label>
+                <input id="dob" type="text">
+            </div>
+        </div>
+
+        <div class="row">
+            <label for="address">Address</label>
+            <input id="address" type="text" style="flex: 2;"> 
+            <label for="postal">Postal Code</label>
+            <input id="postal" type="number" style="flex: 1;"> 
+        </div>
+
+        <div class="row">
+            <label for="tel-home">TEL No:</label>
+            <input id="tel-home" type="text">
+            <label for="tel-hp">Home</label>
+            <input id="tel-hp" type="text">
+            <label>(H/p)</label>
+        </div>
+        <div class="row">
+            <label for="class-courses">Email</label>
+            <input id="class-courses" type="text">
+        </div>
+        <div class="row">
+            <label for="school-org">Name of the school/organization</label>
+            <input id="school-org" type="text">
+        </div>
+
+        <div class="row">
+            <label for="class-courses">Class Courses</label>
+            <input id="class-courses" type="text">
+        </div>
+
+        <h3>Category of Competition</h3>
+        <div class="row">
+            <label>I would like to submit my entry under the following category:</label>
+        </div>
+        <div class="row pad" >
+            <div class="box"></div>
+            <label for="young-children">Young Children</label>
+        </div>
+        <div class="row pad">   
+            <div class="box"></div>
+            <label for="young-adults">Young Adults</label>
+        </div>
+        <div class="row pad">
+            <div class="box"></div>
+            <label for="open">Open</label>
+        </div>
+
+        <div class="row">
+            <label for="entry-title">Title of Entry</label>
+            <input id="entry-title" type="text">
+        </div>
+        <div class="row">
+            <label for="entry-description">Brief description where and when taken</label>
+            <input id="entry-description" type="text">
+        </div>
+        <div class="row">
+            <input id="entry-description" type="text">
+        </div>
+        <div class="row">
+            <input id="entry-description" type="text">
+        </div>
+
+    </fieldset>
+</body>
+</html>
